@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="Common\Identity.cs" />
     <Compile Include="Common\SysVer.cs" />
+    <Compile Include="Common\Xintructure.cs" />
+    <Compile Include="Common\XinWindow.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

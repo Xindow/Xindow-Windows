@@ -14,7 +14,7 @@ namespace Xindow
         [STAThread]
         static void Main()
         {
-            Console.WriteLine(Common.Identity.GetComputerName());
+            Common.XinOperation.GetWindows(true).ForEach(window => { Console.WriteLine(window); });
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
